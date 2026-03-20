@@ -1,0 +1,12 @@
+
+# Backend
+.metadata/
+target/
+*.log
+
+# Frontend
+node_modules/
+build/
+
+# OS
+.DS_Store
