@@ -1,0 +1,49 @@
+body {
+  font-family: Arial;
+  background: #f5f5f5;
+  margin: 0;
+}
+
+/* only specific spacing */
+form {
+  margin: 10px;
+}
+
+input {
+  margin: 5px 0;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.gradient-custom-2 {
+  background: linear-gradient(to right, #24eebf, #36c0d8, #36b6dd, #455db4);
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+  }
+}
+body {
+  /* fallback for old browsers */
+  background: #93fbf9;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to bottom right, rgb(147, 223, 251), rgb(87, 142, 245));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom right, rgb(147, 244, 251), rgb(87, 145, 245))
+}
